@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 import Left from './Left.js';
+import Right from './Right.js';
 
+import '../App.css';
 
 class Main extends Component {
   render() {
@@ -9,9 +11,8 @@ class Main extends Component {
       <div className="Main">
         <h1>Main</h1>
 
-      <div className="Left">
         <Left />
-      </div>
+        <Right />
 
     </div>
 

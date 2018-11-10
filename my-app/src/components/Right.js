@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 
-import './Left.css';
+import Info from './Info.js';
+
+import './Right.css';
 
 // import { Box, Container } from 'bloomer';
 
 import Cells from './Cells.js';
 
-class Left extends Component {
+class Right extends Component {
   render() {
     return (
-      <div className="left">
-        <h1>Left</h1>
+      <div className="right">
+        <h1>Right</h1>
 
-        <Cells />
+        <Info />
+
       </div>
 
     )
@@ -20,4 +23,4 @@ class Left extends Component {
 }
 
 
-export default Left;
+export default Right;

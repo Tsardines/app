@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import { Box, Container } from 'bloomer';
 
+import './Left.css';
+
 class Cells extends Component {
   render() {
     return (
@@ -11,7 +13,7 @@ class Cells extends Component {
         <div className="box">box</div>
         <div className="box">box</div>
         <div className="box">box</div>
-        
+
       </div>
     )
   }
