@@ -1,0 +1,20 @@
+.left {
+  background-color: turquoise;
+  float: left;
+  height: 100vh;
+}
+
+.cells {
+  background-color: orange;
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: yellow;
+  border: 2px solid black;
+  height: 12vh;
+  margin: 2em;
+  width: 7vw;
+}

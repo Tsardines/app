@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Main from './components/Main.js';
-import Info from './components/Info.js';
 
 import './App.css';
 
@@ -12,21 +11,10 @@ const API_KEY = "31gJzTauAdE8SL1ylx6WQ5DMfemY7F4kyx4Ztezb";
 // NASA Pic of the Day API
 
 class App extends Component {
-
-  state = {
-    copyright: undefined,
-    date: undefined
-  }
-
-  getInfo = async (e) => {
-    e.preventDefault();
-
-  const api_call = await
-  fetch(`https://api.nasa.gov/planetary/apod?api_key=31gJzTauAdE8SL1ylx6WQ5DMfemY7F4kyx4Ztezb`);
-  const data = await api_call.json();
-
+  constructor(props) {
+    super(props)
+  console.log('howdy!')
 }
-
 
   render() {
     return (
@@ -34,12 +22,7 @@ class App extends Component {
 
         <Main />
 
-        <div className="Info">
-          <Info
-            copyright={this.state.copyright}
-            date={this.state.date}
-            />
-        </div>
+
 
       </div>
     );
