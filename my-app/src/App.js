@@ -21,14 +21,11 @@ class App extends Component {
   getInfo = async (e) => {
     e.preventDefault();
 
-
   const api_call = await
   fetch(`https://api.nasa.gov/planetary/apod?api_key=31gJzTauAdE8SL1ylx6WQ5DMfemY7F4kyx4Ztezb`);
   const data = await api_call.json();
 
 }
-
-
 
 
   render() {

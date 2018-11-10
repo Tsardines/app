@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Box, Container } from 'bloomer';
 
 const Info = (props) => (
   <Container>
@@ -8,16 +9,7 @@ const Info = (props) => (
   {
     props.date && <Box>Date: { props.date}</Box>
   }
+  </Container>
 )
-
-// class Info extends Component {
-//   render() {
-//     return (
-//       <div className="Info">
-//       <h1>info</h1>
-//       </div>
-//     );
-//   }
-}
 
 export default Info;
