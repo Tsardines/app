@@ -4,7 +4,7 @@ import './Left.css';
 
 // import { Box, Container } from 'bloomer';
 
-import Cells from './Cells.js';
+// import Cells from './Cells.js';
 
 class Left extends Component {
   render() {
@@ -12,12 +12,10 @@ class Left extends Component {
       <div className="left">
         <h1>Left</h1>
 
-        <Cells />
       </div>
 
     )
   }
 }
-
 
 export default Left;
