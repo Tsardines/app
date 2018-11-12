@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
+// import { Box, Container } from 'bloomer';
 
-const Info = (props) => (
-  <Container>
-  {
-    props.copyright && <Box>Copyright: { props.copyright}</Box>
-  }
-  {
-    props.date && <Box>Date: { props.date}</Box>
-  }
-)
+import './Right.css';
 
-// class Info extends Component {
-//   render() {
-//     return (
-//       <div className="Info">
-//       <h1>info</h1>
-//       </div>
-//     );
-//   }
+class Info extends Component {
+  render() {
+    return (
+      <div className="cells">
+        <h1>Info</h1>
+
+        <div className="info-box">info box</div>
+
+      </div>
+    )
+  }
 }
+
 
 export default Info;

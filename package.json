@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Tsardines/app/issues"
   },
-  "homepage": "https://github.com/Tsardines/app#readme"
+  "homepage": "https://github.com/Tsardines/app#readme",
+  "dependencies": {
+    "bloomer": "^0.6.5",
+    "react": "^16.6.1"
+  }
 }
