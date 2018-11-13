@@ -1,63 +1,46 @@
 import React, { Component } from 'react';
 
-import Main from './components/Main.js';
+// import Main from './components/Main.js';
 import './App.css';
-
-// const data = require('../src/FakeOrg.json')
-// for (var i = 0; i < data.length; i++) {
-//   let obj = data[i];
-//   console.log("Name: " + obj.name );
-// }
 
 
 class App extends Component {
-  constructor() {
-    super();
-
+  constructor(props) {
+    super(props);
+    
     this.state = {
-      'items': []
-    }
+      items: []
+    };
+    this.componentWillMount = this.componentWillMount.bind(this);
   }
 
-  componentDidMount() {
-    this.getItems();
-  }
-
-  getItems() {
-    fetch("./src/FakeOrg.json")
-    // .then(res => res.text())          
-    // .then(text => console.log(text))
-    .then(res => {
-      if(res.status === 200) return res.json();
-      else return { error: 'there was an error' }
-    }).then(items => {
-      if(items.error) { /* handle error */ }
-      else {
-        this.setState({ items })
-      }
+  componentWillMount() {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(res => res.json())
+    .then(data => {
+      this.setState({ items: data });
     });
   }
 
+
   render() {
+
+    const { items } = this.state;
+
     return (
-      <div className="App">
+      <div className = "App">
 
-        <Main />
+      <h1>Fetching</h1>
 
-        <ul>
-          {this.state.items.map(function(item, index) {
+        { items.map(item => {
             return (
-              <div>
-                <h1>{item.name}</h1>
-                <p>{item.title}</p>
-              </div>
-            )
-          }
-          )}
-        </ul>
-
+              <ul key={item.title}>
+                <li>{item.title}</li>
+              </ul>
+            );
+        })}        
       </div>
-    )
+    );
   }
 }
 
