@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://api.myjson.com/bins/1h7z16')
     .then(res => res.json())
     .then(data => {
       this.setState({ items: data });
@@ -32,11 +32,17 @@ class App extends Component {
 
       <h1>Fetching</h1>
 
-        { items.map(item => {
+        { this.state.items.map(item => {
             return (
-              <ul key={item.title}>
-                <li>{item.title}</li>
-              </ul>
+              <div className="people">
+                <ul key={item.name}>
+                  <li><strong>Name:</strong> {item.name}</li>
+                  <li><strong>Title:</strong> {item.title}</li>
+                  <li><strong>Email:</strong> {item.email}</li>
+                  <li><strong>Office:</strong> {item.office}</li>
+                  <li><strong>Office:</strong> {item.manager}</li>
+                </ul>
+              </div>
             );
         })}        
       </div>
