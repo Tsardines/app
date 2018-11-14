@@ -9,45 +9,56 @@ class App extends Component {
     super(props);
     
     this.state = {
-      data: []
+      items: []
     };
-    // this.componentWillMount = this.componentWillMount.bind(this);
+    this.componentWillMount = this.componentWillMount.bind(this);
   }
 
-  componentDidMount() {
-    fetch('https://api.myjson.com/bins/1h7z16')
+  componentWillMount() {
+    fetch('https://api.myjson.com/bins/houf6')
     .then(res => res.json())
     .then(data => {
-      this.setState({ data });
+      this.setState({ items: data });
     });
   }
 
 
   render() {
 
-    const { data } = this.state;
+    const { items } = this.state;
 
     return (
       <div className="App">
 
-      <h1>Fetching</h1>
+      <h1>Our People</h1>
 
-        <div className="people">
-            { data.map(item => {
-              return (
-                <div>
-                  <p><strong>Name:</strong> {item.name}</p>
-                  <p><strong>Title:</strong> {item.title}</p>
-                  <p><strong>Email:</strong> {item.email}</p>
-                  <p><strong>Office:</strong> {item.office}</p>
-                  <p><strong>Office:</strong> {item.manager}</p>
+
+        { items.map((item, num) => {
+            return (
+              <div className="people">
+
+                <div className="elem">
+                  <p key={num}>{item.elems}</p>   
+                </div>     
+
+                <div className="name-title">
+                  <p key={num}><strong>{item.name}</strong></p>
+                  <p key={num}><small>{item.title}</small></p>
                 </div>
-              );
-            })}        
-        </div>
+
+                <div className="hidden">
+                  <p key={num}><small>{item.email}</small></p>
+                  <p key={num}><small>{item.office}</small></p>
+                </div>
+                {/* <p>{item.manager}</p> */}
+              </div>
+      
+            );
+        })}        
       </div>
     );
   }
 }
 
 export default App;
+
