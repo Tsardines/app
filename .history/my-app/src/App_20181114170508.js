@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('https://api.myjson.com/bins/vz2rm')
+    fetch('https://api.myjson.com/bins/houf6')
     .then(res => res.json())
     .then(data => {
       this.setState({ items: data });
@@ -28,41 +28,40 @@ class App extends Component {
     const { items } = this.state;
 
 
-    // const flatItems = items.flat(4);    
-
-
+    const flatItems = items.flat(4);      
+    items.map((item, num) => {   
     return (
       <div className="App">
 
       <h1>Our People</h1>
       <span className="intro"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos, ipsa aspernatur animi ducimus repudiandae facilis totam ipsam tenetur libero recusandae nostrum similique aliquid optio, explicabo illo veniam alias.</p></span>
 
-          { items.map((item, num) => {
-              return (
 
-                <div className="people">
+            return (
+              <div className="people">
 
-                  <div className="elem">
-                    <p key={num}>{item.elems}</p>   
-                  </div>     
-                
-                    <p key={num}><strong>{item.name}</strong></p>
-                    <p key={num}><small>{item.title}</small></p>             
+                <p key={num}>{item.elems}</p>
 
-                  <div className="hidden">
-                    <p key={num}><small>{item.email}</small></p>
-                    <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
-                  </div> 
+                {/* <div className="elem">
+                  <p key={num}>{item.elems}</p>   
+                </div>     
+               
+                  <p key={num}><strong>{item.name}</strong></p>
+                  <p key={num}><small>{item.title}</small></p>             
 
-                </div>   
-              );       
-            })}
-              
+                <div className="hidden">
+                  <p key={num}><small>{item.email}</small></p>
+                  <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
+                </div> */}
+
+              </div>
+      
+            );
+        })       
       </div>
     );
   }
 }
-
 
 export default App;
 

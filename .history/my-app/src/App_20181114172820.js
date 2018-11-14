@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('https://api.myjson.com/bins/vz2rm')
+    fetch('https://api.myjson.com/bins/fs342')
     .then(res => res.json())
     .then(data => {
       this.setState({ items: data });
@@ -37,27 +37,27 @@ class App extends Component {
       <h1>Our People</h1>
       <span className="intro"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos, ipsa aspernatur animi ducimus repudiandae facilis totam ipsam tenetur libero recusandae nostrum similique aliquid optio, explicabo illo veniam alias.</p></span>
 
-          { items.map((item, num) => {
-              return (
+              <div className="people">
 
-                <div className="people">
 
-                  <div className="elem">
-                    <p key={num}>{item.elems}</p>   
-                  </div>     
-                
-                    <p key={num}><strong>{item.name}</strong></p>
-                    <p key={num}><small>{item.title}</small></p>             
+                <p key={num}>{item.elems}</p>
 
-                  <div className="hidden">
-                    <p key={num}><small>{item.email}</small></p>
-                    <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
-                  </div> 
+                {/* <div className="elem">
+                  <p key={num}>{item.elems}</p>   
+                </div>     
+               
+                  <p key={num}><strong>{item.name}</strong></p>
+                  <p key={num}><small>{item.title}</small></p>             
 
-                </div>   
-              );       
-            })}
-              
+                <div className="hidden">
+                  <p key={num}><small>{item.email}</small></p>
+                  <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
+                </div> */}
+
+              </div>
+      
+            
+        })       
       </div>
     );
   }

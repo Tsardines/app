@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('https://api.myjson.com/bins/vz2rm')
+    fetch('https://api.myjson.com/bins/fs342')
     .then(res => res.json())
     .then(data => {
       this.setState({ items: data });
@@ -43,15 +43,15 @@ class App extends Component {
                 <div className="people">
 
                   <div className="elem">
-                    <p key={num}>{item.elems}</p>   
+                    <p key={i}>{item.elems}</p>   
                   </div>     
                 
-                    <p key={num}><strong>{item.name}</strong></p>
-                    <p key={num}><small>{item.title}</small></p>             
+                    <p key={i}><strong>{item.name}</strong></p>
+                    <p key={i}><small>{item.title}</small></p>             
 
                   <div className="hidden">
-                    <p key={num}><small>{item.email}</small></p>
-                    <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
+                    <p key={i}><small>{item.email}</small></p>
+                    <p key={i}><small><strong>Office: </strong>{item.office}</small></p>
                   </div> 
 
                 </div>   
