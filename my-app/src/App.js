@@ -33,7 +33,6 @@ class App extends Component {
       <h1>Our People</h1>
       <span className="intro"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos, ipsa aspernatur animi ducimus repudiandae facilis totam ipsam tenetur libero recusandae nostrum similique aliquid optio, explicabo illo veniam alias.</p></span>
 
-
         { items.map((item, num) => {
             return (
               <div className="people">
