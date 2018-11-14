@@ -1,0 +1,273 @@
+[
+  {
+    "elems": "Pr",
+    "name": "Abby Langdale",
+    "title": "President",
+    "email": "alangdale0@hubpages.com",
+    "office": "Javanrud",
+    "manager": ""
+  },
+  {
+    "elems": "Vp",
+    "name": "Johnnie Mouncey",
+    "title": "Vice President",
+    "email": "jmouncey0@cnet.com",
+    "office": "Canto",
+    "manager": ""
+  },
+  {
+    "elems": "Vp",
+    "name": "Concordia Burgwyn",
+    "title": "VP Quality Control",
+    "email": "cburgwyn0@dyndns.org",
+    "office": "Zhoukou",
+    "manager": ""
+    },
+    {
+      "elems": "En",
+      "name": "Prissie Sainsberry",
+      "title": "Web Developer IV",
+      "email": "psainsberry0@yellowbook.com",
+      "office": "Tugu",
+      "manager": null
+    },
+    {
+      "elems": "De",
+      "name": "Bondon Ellison",
+      "title": "Chief Design Engineer",
+      "email": "bellison1@java.com",
+      "office": "Des Moines",
+      "manager": null
+    },
+    {
+      "elems": "An",
+      "name": "Stephenie Parchment",
+      "title": "Business Systems Development Analyst",
+      "email": "sparchment2@amazon.co.jp",
+      "office": "Serop\u00e9dica",
+      "manager": null
+    },
+    {
+      "elems": "En",
+      "name": "Ula Rotherham",
+      "title": "Software Test Engineer III",
+      "email": "urotherham3@yahoo.com",
+      "office": "Lenart v Slov. Goricah",
+      "manager": null
+    },
+    {
+      "elems": "Rc",
+      "name": "Orsola Peppard",
+      "title": "Recruiting Manager",
+      "email": "opeppard4@123-reg.co.uk",
+      "office": "Aqaba",
+      "manager": null
+    },
+    {
+      "elems": "Ac",
+      "name": "Cynde Melland",
+      "title": "Account Representative I",
+      "email": "cmelland5@sbwire.com",
+      "office": "Saint-\u00c9tienne-du-Rouvray",
+      "manager": null
+    },           
+    {
+      "elems": "En",
+      "name": "Fancy Sauven",
+      "title": "Software Engineer III",
+      "email": "fsauven1@deviantart.com",
+      "office": "Campina Grande",
+      "manager": ""
+    },
+    {
+      "elems": "En",
+      "name": "Goraud Lucks",
+      "title": "Geological Engineer",
+      "email": "glucks6@shinystat.com",
+      "office": "Krasnyy Kholm",
+      "manager": null
+    },
+    {
+      "elems": "St",
+      "name": "Marcela MacAllister",
+      "title": "Statistician IV",
+      "email": "mmacallister7@apple.com",
+      "office": "Shuangjing",
+      "manager": null
+    },
+    {
+      "elems": "St",
+      "name": "Orsa Rampley",
+      "title": "Biostatistician III",
+      "email": "orampley8@opera.com",
+      "office": "Jinshandian",
+      "manager": null
+    },
+    {
+      "elems": "It",
+      "name": "Clifford Barnes",
+      "title": "Desktop Support Technician",
+      "email": "cbarnes9@cpanel.net",
+      "office": "Daytona Beach",
+      "manager": null
+    },
+    {
+      "elems": "Gm",
+      "name": "Angel Presland",
+      "title": "General Manager",
+      "email": "apresland1@huffingtonpost.com",
+      "office": "Coihaique",
+      "manager": ""
+    },
+    {
+      "elems": "Sa",
+      "name": "Carlin Ainsbury",
+      "title": "Sales Associate",
+      "email": "cainsbury2@bandcamp.com",
+      "office": "Sanlidian",
+      "manager": ""
+    },
+    {
+      "elems": "Ph",
+      "name": "Randie Notman",
+      "title": "Pharmacist",
+      "email": "rnotmana@soundcloud.com",
+      "office": "Whitwell",
+      "manager": null
+    },
+    {
+      "elems": "En",
+      "name": "Inglis Kerley",
+      "title": "Design Engineer",
+      "email": "ikerleyb@nydailynews.com",
+      "office": "Quintong",
+      "manager": null
+    },
+    {
+      "elems": "Ev",
+      "name": "Elene Cristofaro",
+      "title": "Environmental Tech",
+      "email": "ecristofaroc@redcross.org",
+      "office": "Victoria",
+      "manager": null
+    },
+    {
+      "elems": "Hr",
+      "name": "Kerrin Goering",
+      "title": "Recruiter",
+      "email": "kgoeringd@tiny.cc",
+      "office": "Alacaygan",
+      "manager": null
+    },
+              {
+                "elems": "Pf",
+                "name": "Barney Gask",
+                "title": "Assistant Professor",
+                "email": "bgaske@blinklist.com",
+                "office": "Kubachi",
+                "manager": null
+              },
+              {
+                "elems": "St",
+                "name": "Ike Sheehan",
+                "title": "Statistician IV",
+                "email": "isheehanf@purevolume.com",
+                "office": "Mauponggo",
+                "manager": null
+              },
+              {
+                "elems": "Np",
+                "name": "Modestine Tarbath",
+                "title": "Nurse Practicioner",
+                "email": "mtarbathg@wsj.com",
+                "office": "Guanyinsi",
+                "manager": null
+              }
+            ]
+          },
+          {
+            "elems": "Vp",
+            "name": "Dulcy Soff",
+            "title": "VP Accounting",
+            "email": "dsoff3@uiuc.edu",
+            "office": "San Miguel",
+            "manager": [
+              {
+                "elems": "Rs",
+                "name": "Bev Gong",
+                "title": "Research Associate",
+                "email": "bgongh@fema.gov",
+                "office": "Sosnovyy Bor",
+                "manager": null
+              },
+              {
+                "elems": "En",
+                "name": "Madonna Ewells",
+                "title": "Geological Engineer",
+                "email": "mewellsi@psu.edu",
+                "office": "Delmas",
+                "manager": null
+              },
+              {
+                "elems": "Wr",
+                "name": "Gina Sisselot",
+                "title": "Technical Writer",
+                "email": "gsisselotj@xrea.com",
+                "office": "Pedaringan",
+                "manager": null
+              },
+              {
+                "elems": "Au",
+                "name": "Ruprecht Bausor",
+                "title": "Internal Auditor",
+                "email": "rbausork@mozilla.com",
+                "office": "Changyi",
+                "manager": null
+              },
+              {
+                "elems": "As",
+                "name": "Letitia Bryett",
+                "title": "Office Assistant III",
+                "email": "lbryettl@cam.ac.uk",
+                "office": "Pacet",
+                "manager": null
+              },
+              {
+                "elems": "Pt",
+                "name": "Alvina Scini",
+                "title": "Physical Therapy Assistant",
+                "email": "ascinim@prnewswire.com",
+                "office": "Guaratinguet\u00e1",
+                "manager": null
+              },
+              {
+                "elems": "Ad",
+                "name": "Spence Lumsdall",
+                "title": "Administrative Officer",
+                "email": "slumsdalln@myspace.com",
+                "office": "Binulasan",
+                "manager": null
+              },
+              {
+                "elems": "Pt",
+                "name": "Bud Lewson",
+                "title": "Physical Therapy Assistant",
+                "email": "blewsono@tmall.com",
+                "office": "Kobe\u0159ice",
+                "manager": null
+              }
+            ]
+          },
+          {
+            "elems": "Pf",
+            "name": "Carly Dellenbrok",
+            "title": "Associate Professor",
+            "email": "cdellenbrok4@craigslist.org",
+            "office": "Thanh Kh\u00ea",
+            "manager": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.people {
+  height: 41vh;
+  overflow: hidden;
+  position: relative;
+  width: 25vw;
+}
+
+.elem {
+  font-size: 5em;
+  margin-bottom: -1em;
+}
+
+.hidden {
+  opacity: 0.25;
+}
+
+.hidden:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+
+/* .people:hover .hidden {
+  top: 50%;
+  transform: translateY(-50%);
+} */
+

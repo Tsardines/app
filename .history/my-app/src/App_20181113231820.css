@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.people {
+  height: 21vh;
+  position: relative;
+  width: 15vw;
+}
+
+.elem {
+  margin-bottom: -1em;
+  font-size: 5em;
+}
+
+.people:hover {
+
+}
+

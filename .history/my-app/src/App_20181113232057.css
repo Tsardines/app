@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.people {
+  background-color: orange;
+  height: 21vh;
+  overflow: hidden;
+  position: relative;
+  width: 15vw;
+}
+
+.elem {
+  margin-bottom: -1em;
+  font-size: 5em;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.people:hover .elem {
+  top: 4em;
+  transform: translateY(0);
+}
+
+.hidden {
+  position: absolute;
+  top: 400px;
+  transition: 0.6s;
+}
+
+.hidden:hover .hidden {
+  top: 50%;
+  transform: translateY(-50%);
+}
+

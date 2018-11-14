@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.people {
+  background-color: orange;
+  height: 21vh;
+  width: 15vw;
+}
+
+.elem {
+  background-color: turquoise;
+  margin-bottom: -1em;
+  font-size: 5em;
+}
+
+.people:hover {
+  background-color: grey;
+}

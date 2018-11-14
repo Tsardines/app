@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.people {
+  background-color: orange;
+  height: 30vh;
+  width: 20vw;
+}
+
+.elem {
+  background-color: turquoise;
+  margin-bottom: -1em;
+  font-size: 5em;
+}

@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.people {
+  height: 21vh;
+  width: 15vw;
+}
+
+.elem {
+  margin-bottom: -1em;
+  font-size: 5em;
+}
+
+.people:hover {
+  background-color: grey;
+  transition: background 0.3s ease-in-out;
+}

@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.people {
+  height: 51vh;
+  overflow: hidden;
+  position: relative;
+  transform: translateY(50%);
+  width: 25vw;
+}
+
+.elem {
+  font-size: 5em;
+  margin-bottom: -2em;
+  /* transform: translateY(50%);
+  transition: 0.3s; */
+}
+
+/* .people:hover {
+  top: 4em;
+  transform: translateY(0);
+}
+
+.hidden {
+  top: 400px;
+  transition: 0.4s;
+}
+
+.people:hover .hidden {
+  top: 50%;
+  transform: translateY(-50%);
+} */
+

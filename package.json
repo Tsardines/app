@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Tsardines/app#readme",
   "dependencies": {
     "bloomer": "^0.6.5",
+    "json-loader": "^0.5.7",
     "react": "^16.6.1"
   }
 }

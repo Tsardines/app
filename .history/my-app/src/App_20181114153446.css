@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro p {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 50%;
+}
+
+.people {
+  background-color: #f8f8f8;
+  border: 1px solid #f6f6f6;
+  max-height: 30vh;
+  max-width: 18vw;
+  padding: 1em;
+}
+
+.people p {
+  font-size: 2vw;
+}
+
+.elem {
+  font-size: 18em;
+  margin-bottom: -1em;
+  margin-top: -1em;
+}
+
+.hidden {
+  opacity: 0.15;
+}
+
+.hidden:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+
+/* .people:hover .hidden {
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
