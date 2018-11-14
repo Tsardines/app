@@ -31,6 +31,7 @@ class App extends Component {
       <div className="App">
 
       <h1>Our People</h1>
+      <span className="intro"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quos, ipsa aspernatur animi ducimus repudiandae facilis totam ipsam tenetur libero recusandae nostrum similique aliquid optio, explicabo illo veniam alias.</p></span>
 
 
         { items.map((item, num) => {
@@ -40,11 +41,9 @@ class App extends Component {
                 <div className="elem">
                   <p key={num}>{item.elems}</p>   
                 </div>     
-
-                <div className="name-title">
+               
                   <p key={num}><strong>{item.name}</strong></p>
-                  <p key={num}><small>{item.title}</small></p>
-                </div>
+                  <p key={num}><small>{item.title}</small></p>             
 
                 <div className="hidden">
                   <p key={num}><small>{item.email}</small></p>

@@ -1,35 +1,40 @@
 .App {
   display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
+.intro p {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 50%;
+}
+
 .people {
-  background-color: orange;
-  height: 51vh;
-  overflow: hidden;
-  position: relative;
+  background-color: #f8f8f8;
+  border: 1px solid #f6f6f6;
+  height: 31vh;
   width: 25vw;
 }
 
 .elem {
   font-size: 5em;
-  transform: translateY(50%);
-  transition: 0.3s;
-}
-
-.people:hover .elem {
-  top: 4em;
-  transform: translateY(0);
+  margin-bottom: -1em;
+  margin-top: -1em;
 }
 
 .hidden {
-  position: absolute;
-  text-align: center;
-  transition: 0.6s;
+  opacity: 0.15;
 }
 
-.people:hover .hidden {
+.hidden:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+
+/* .people:hover .hidden {
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 
