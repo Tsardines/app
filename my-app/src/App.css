@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+
+.user-box ul li {
+  list-style-type: none;
+}
+
+.user-box {
+  background-color: turquoise;
+  padding: 2em;
+  text-align: left;
+  width: 40%;
+}
