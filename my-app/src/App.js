@@ -9,42 +9,42 @@ class App extends Component {
     super(props);
     
     this.state = {
-      items: []
+      data: []
     };
-    this.componentWillMount = this.componentWillMount.bind(this);
+    // this.componentWillMount = this.componentWillMount.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     fetch('https://api.myjson.com/bins/1h7z16')
     .then(res => res.json())
     .then(data => {
-      this.setState({ items: data });
+      this.setState({ data });
     });
   }
 
 
   render() {
 
-    const { items } = this.state;
+    const { data } = this.state;
 
     return (
-      <div className = "App">
+      <div className="App">
 
       <h1>Fetching</h1>
 
-        { this.state.items.map(item => {
-            return (
-              <div className="people">
-                <ul key={item.name}>
-                  <li><strong>Name:</strong> {item.name}</li>
-                  <li><strong>Title:</strong> {item.title}</li>
-                  <li><strong>Email:</strong> {item.email}</li>
-                  <li><strong>Office:</strong> {item.office}</li>
-                  <li><strong>Office:</strong> {item.manager}</li>
-                </ul>
-              </div>
-            );
-        })}        
+        <div className="people">
+            { data.map(item => {
+              return (
+                <div>
+                  <p><strong>Name:</strong> {item.name}</p>
+                  <p><strong>Title:</strong> {item.title}</p>
+                  <p><strong>Email:</strong> {item.email}</p>
+                  <p><strong>Office:</strong> {item.office}</p>
+                  <p><strong>Office:</strong> {item.manager}</p>
+                </div>
+              );
+            })}        
+        </div>
       </div>
     );
   }
