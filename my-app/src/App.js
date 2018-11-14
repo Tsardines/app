@@ -46,7 +46,7 @@ class App extends Component {
 
                 <div className="hidden">
                   <p key={num}><small>{item.email}</small></p>
-                  <p key={num}><small>{item.office}</small></p>
+                  <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
                 </div>
                 {/* <p>{item.manager}</p> */}
               </div>
