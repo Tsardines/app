@@ -7,7 +7,7 @@ const Footer = () => {
 
     <div className="footer">
 
-    <img src={beaker} alt="beaker" className="beaker"></img>
+    {/* <img src={beaker} alt="beaker" className="beaker"></img> */}
    
         <div className="left">
             <ul>

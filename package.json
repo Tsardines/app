@@ -19,6 +19,6 @@
   "dependencies": {
     "bloomer": "^0.6.5",
     "json-loader": "^0.5.7",
-    "react": "^16.6.1"
+    "react": "^16.6.3"
   }
 }

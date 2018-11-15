@@ -37,6 +37,7 @@ class App extends Component {
 
                 <div className="people">
 
+                <div className="people-cell">
                   <div className="elem">
                     <p key={num}>{item.elems}</p>   
                   </div>     
@@ -48,6 +49,7 @@ class App extends Component {
                     <p key={num}>{item.email}</p>
                     <p key={num}><strong>Office: </strong>{item.office}</p>
                   </div> 
+                </div>
 
                 </div>   
                              
