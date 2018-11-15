@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Tsardines/app/issues"
   },
-  "homepage": "https://github.com/Tsardines/app#readme",
+  "homepage": "https://Tsardines.github.io/lorem-staff-page",
   "dependencies": {
     "bloomer": "^0.6.5",
     "json-loader": "^0.5.7",
