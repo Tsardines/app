@@ -35,6 +35,7 @@ class App extends Component {
           { items.map((item, num) => {
               return (
 
+                <div className="boxes">
                 <div className="people">
 
                   <div className="elem">
@@ -50,6 +51,7 @@ class App extends Component {
                   </div> 
 
                 </div>   
+                </div>
                              
               ); 
 

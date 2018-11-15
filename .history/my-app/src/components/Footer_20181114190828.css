@@ -1,0 +1,16 @@
+.footer {
+    background-color: orange;
+    width: 100%;
+}
+
+.left ul li, .right ul li {
+    list-style-type: none;
+}
+
+.left {
+    background-color: turquoise;
+}
+
+.right {
+    background-color: pink;
+}

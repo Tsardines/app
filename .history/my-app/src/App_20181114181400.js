@@ -49,13 +49,13 @@ class App extends Component {
                     <p key={num}><strong>Office: </strong>{item.office}</p>
                   </div> 
 
+                <Footer />
                 </div>   
-                             
+
+
               ); 
 
-            })}
-
-            <Footer />   
+            })}   
 
       </div>
     );

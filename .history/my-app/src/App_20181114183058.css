@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-flow: row nowrap;
   flex-wrap: wrap;
+  margin: 1em;
   max-width: 100%;
   overflow-x: hidden;
   padding: 0.25em;
@@ -26,13 +27,13 @@
   border: 1px solid #f6f6f6;
   height: 22vh;
   margin: 0.5em;
-  /* max-height: 22vh;
-  max-width: 13vw; */
-  /* min-height: 22vh;
-  min-width: 13vw; */
-  padding: 1.5em;
+  max-height: 22vh;
+  max-width: 13vw;
+  min-height: 22vh;
+  min-width: 13vw;
+  padding: 1.75em;
   text-align: left;
-  width: 13vw;
+  width: 1vw;
 }
 
 .elem {

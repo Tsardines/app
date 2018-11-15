@@ -1,0 +1,28 @@
+.footer {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    padding: 2em;
+    width: 100%;
+}
+
+.left ul li, .right ul li {
+    list-style-type: none;
+}
+
+.left {
+    background-color: turquoise;
+    float: left;
+    width: 40%;
+}
+
+.right {
+    background-color: pink;
+    float: right;
+    width: 30%;
+}
+
+.left h1, .right h1 {
+    font-size: 3em;
+}

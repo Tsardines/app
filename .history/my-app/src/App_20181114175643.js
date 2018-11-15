@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import Footer from './components/Footer.js';
+// import Main from './components/Main.js';
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -26,6 +27,10 @@ class App extends Component {
 
     const { items } = this.state;
 
+
+    // const flatItems = items.flat(4);    
+
+
     return (
       <div className="App">
 
@@ -45,18 +50,14 @@ class App extends Component {
                     <p key={num}><small>{item.title}</small></p>             
 
                   <div className="hidden">
-                    <p key={num}>{item.email}</p>
-                    <p key={num}><strong>Office: </strong>{item.office}</p>
+                    <p key={num}><small>{item.email}</small></p>
+                    <p key={num}><small><strong>Office: </strong>{item.office}</small></p>
                   </div> 
 
                 </div>   
-                             
-              ); 
-
+              );       
             })}
-
-            <Footer />   
-
+              
       </div>
     );
   }

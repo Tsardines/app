@@ -3,16 +3,14 @@
   flex-direction: column;
   flex-flow: row nowrap;
   flex-wrap: wrap;
-  max-width: 100%;
-  overflow-x: hidden;
+  margin: 1em;
   padding: 0.25em;
   text-align: center;
-  width: 100%;
 }
 
 .our-people {
+  background-color: orange;
   text-align: center;
-  width: 100%;
 }
 
 .intro p {
@@ -24,15 +22,14 @@
 .people {
   background-color: #f8f8f8;
   border: 1px solid #f6f6f6;
-  height: 22vh;
+  height: 25vh;
   margin: 0.5em;
-  /* max-height: 22vh;
-  max-width: 13vw; */
-  /* min-height: 22vh;
-  min-width: 13vw; */
-  padding: 1.5em;
-  text-align: left;
-  width: 13vw;
+  max-height: 25vh;
+  max-width: 15vw;
+  min-height: 25vh;
+  min-width: 15vw;
+  padding: 1em;
+  width: 15vw;
 }
 
 .elem {
@@ -41,13 +38,7 @@
   margin-top: -1em;
 }
 
-.elem:hover {
-  color: #87f0f9;
-  transition: 0.2s;
-}
-
 .hidden {
-  font-size: 0.75em;
   opacity: 0.15;
 }
 
@@ -56,4 +47,9 @@
   transition: 0.4s;
 }
 
+
+/* .people:hover .hidden {
+  top: 50%;
+  transform: translateY(-50%);
+} */
 

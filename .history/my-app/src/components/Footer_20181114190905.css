@@ -1,0 +1,20 @@
+.footer {
+    background-color: orange;
+    display: flex;
+    justify-content: pace-between;
+    width: 100%;
+}
+
+.left ul li, .right ul li {
+    list-style-type: none;
+}
+
+.left {
+    background-color: turquoise;
+    float: left;
+}
+
+.right {
+    background-color: pink;
+    float: right;
+}

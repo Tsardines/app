@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import Footer from './components/Footer.js';
+// import Main from './components/Main.js';
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -50,13 +51,9 @@ class App extends Component {
                   </div> 
 
                 </div>   
-                             
-              ); 
-
+              );       
             })}
-
-            <Footer />   
-
+              
       </div>
     );
   }

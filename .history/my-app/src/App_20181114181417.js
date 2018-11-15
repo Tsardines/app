@@ -50,12 +50,12 @@ class App extends Component {
                   </div> 
 
                 </div>   
-                             
+                
+                <Footer />
+
               ); 
 
-            })}
-
-            <Footer />   
+            })}   
 
       </div>
     );

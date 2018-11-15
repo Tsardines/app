@@ -1,0 +1,8 @@
+.footer {
+    background-color: orange;
+    width: 100%;
+}
+
+.left ul li {
+    list-style-type: none;
+}
