@@ -2,6 +2,7 @@
     background-color: #2d2d2e;
     color: rgb(226, 226, 226);
     display: flex;
+    font-weight: bold;
     justify-content: flex-end;
     margin-top: 4em;
     overflow-x: hidden;
@@ -38,7 +39,6 @@
 
 .footer-title {
     font-size: 1.15em;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -50,7 +50,7 @@
 
 .copy {
     font-size: 0.75em;
-    height: 7vh;   
+    height: 7vh;
     margin-top: 30em;
-    text-align: center;
+    width: 100%;
 }

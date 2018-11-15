@@ -2,6 +2,7 @@
     background-color: #2d2d2e;
     color: rgb(226, 226, 226);
     display: flex;
+    font-weight: bold;
     justify-content: flex-end;
     margin-top: 4em;
     overflow-x: hidden;
@@ -32,25 +33,15 @@
 
 .right {
     float: right;
-    height: 10vh;
     width: 15%;
 }
 
 .footer-title {
     font-size: 1.15em;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 .beaker {
     height: 10vh;
-    margin: 2em 35em 0 0;
-    width: 7vw;
-}
-
-.copy {
-    font-size: 0.75em;
-    height: 7vh;   
-    margin-top: 30em;
-    text-align: center;
+    width: 10vw;
 }

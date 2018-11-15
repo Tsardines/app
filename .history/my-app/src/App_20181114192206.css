@@ -24,7 +24,7 @@
 .people {
   background-color: #f8f8f8;
   border: 1px solid rgb(252, 244, 234);
-  height: 22.5vh;
+  height: 22vh;
   margin: 0.5em;
   /* max-height: 22vh;
   max-width: 13vw; */
@@ -32,7 +32,7 @@
   min-width: 13vw; */
   padding: 1.5em;
   text-align: left;
-  width: 12vw;
+  width: 13vw;
 }
 
 .elem {

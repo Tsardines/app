@@ -33,7 +33,8 @@ const Footer = () => {
             </ul>
         </div>
 
-        <span className="copy">Copyright &copy; 2018 Ipsum. All rights reserved.</span>
+        <span className="copy">Copyright &copy; 2018 Lorem Ipsum Foundation.</span>
+        <span className="copy">All rights reserved.</span>
 
     </div>
   );

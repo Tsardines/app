@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css';
-import beaker from './beaker.png';
+import './public/beaker.png';
 
 const Footer = () => {
   return (
 
     <div className="footer">
 
-    <img src={beaker} alt="beaker" className="beaker"></img>
+    <img src="./public/beaker.png"></img>
    
         <div className="left">
             <ul>
@@ -32,8 +32,6 @@ const Footer = () => {
                 <a href="#"><li>Instagram</li></a>
             </ul>
         </div>
-
-        <span className="copy">Copyright &copy; 2018 Ipsum. All rights reserved.</span>
 
     </div>
   );

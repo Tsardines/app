@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
         </div>
 
-        <span className="copy">Copyright &copy; 2018 Ipsum. All rights reserved.</span>
+        <p className="copy">2018</p>
 
     </div>
   );
